@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  min-height: 100%;
+}
+
+.app-focus-ring:focus,
+.app-focus-ring:focus-visible {
+  box-shadow: none !important;
+  outline: 3px solid #2f8f4e !important;
+  outline-offset: 3px !important;
+}
+
+.notesnook-editor-scroll {
+  min-height: 0;
+  overflow: auto;
+}
+
+.notesnook-editor-shell .ProseMirror {
+  min-height: 8rem;
+  outline: none;
+}
+
+.notesnook-editor-shell .ProseMirror p.is-editor-empty::before {
+  color: var(--placeholder) !important;
+  content: var(--notesnook-empty-editor-copy) !important;
+  font-weight: 400;
+  opacity: 0.6;
+}

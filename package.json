@@ -1,0 +1,57 @@
+{
+  "name": "notesnook-inbox-template-sender",
+  "version": "0.1.0",
+  "description": "Static browser app for building shareable Notesnook inbox note templates.",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wapiflapi/notesnook-inbox-form.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wapiflapi/notesnook-inbox-form/issues"
+  },
+  "homepage": "https://github.com/wapiflapi/notesnook-inbox-form#readme",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@emotion/react": "11.13.3",
+    "@mdi/js": "^7.4.47",
+    "@notesnook/editor": "^2.1.3",
+    "@theme-ui/components": "0.16.2",
+    "@theme-ui/core": "0.16.2",
+    "@theme-ui/theme-provider": "0.16.2",
+    "buffer": "^6.0.3",
+    "liquidjs": "^10.25.7",
+    "lz-string": "^1.5.0",
+    "openpgp": "^6.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^25.6.0",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "jsdom": "^29.1.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.1",
+    "vite": "^8.0.10",
+    "vitest": "^4.1.5"
+  }
+}
